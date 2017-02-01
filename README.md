@@ -29,14 +29,6 @@ import FullNavigationTransition
 
 * iOS 8.0+
 
-## Getting involved
-
-* If you **want to contribute** please feel free to **submit pull requests**.
-* If you **have a feature request** please **open an issue**.
-* If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) and threads on [StackOverflow](http://stackoverflow.com/questions/tagged/FullNavigationTransition) (Tag 'FullNavigationTransition') before submitting an issue.**.
-
-Before contribute check the [CONTRIBUTING](https://github.com/francislata/FullNavigationTransition/blob/master/CONTRIBUTING.md) file for more info.
-
 ## Installation
 
 #### CocoaPods
@@ -51,14 +43,4 @@ pod 'FullNavigationTransition'
 
 ## Author
 
-* [Francis Lata](https://github.com/francislata) ([@francislata](https://twitter.com/francislata))
-
-## FAQ
-
-#### How to .....
-
-You can do it by conforming to .....
-
-# Change Log
-
-This can be found in the [CHANGELOG.md](CHANGELOG.md) file.
+* [Francis Lata](https://github.com/francislata)
