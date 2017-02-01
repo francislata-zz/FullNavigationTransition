@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159D12AD1E3DACD100DBD5F6 /* FullNavigationPercentDrivenInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D12AC1E3DACD100DBD5F6 /* FullNavigationPercentDrivenInteractiveTransition.swift */; };
+		15E2252E1E3D9C0C00E86014 /* FullNavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2252D1E3D9C0C00E86014 /* FullNavigationTransition.swift */; };
+		15E2252F1E3D9C0C00E86014 /* FullNavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2252D1E3D9C0C00E86014 /* FullNavigationTransition.swift */; };
 		287D0A6E1C4B73BD004566D6 /* FullNavigationTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A6D1C4B73BD004566D6 /* FullNavigationTransitionTests.swift */; };
 		28F828811C494B2C00330CF4 /* FullNavigationTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* FullNavigationTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F828881C494B2C00330CF4 /* FullNavigationTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* FullNavigationTransition.framework */; };
-		28F8289A1C494B4200330CF4 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F828991C494B4200330CF4 /* iOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		159D12AC1E3DACD100DBD5F6 /* FullNavigationPercentDrivenInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullNavigationPercentDrivenInteractiveTransition.swift; sourceTree = "<group>"; };
+		15E2252D1E3D9C0C00E86014 /* FullNavigationTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullNavigationTransition.swift; sourceTree = "<group>"; };
 		287D0A6D1C4B73BD004566D6 /* FullNavigationTransitionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullNavigationTransitionTests.swift; path = Tests/FullNavigationTransitionTests.swift; sourceTree = SOURCE_ROOT; };
 		28F8287D1C494B2C00330CF4 /* FullNavigationTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FullNavigationTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828801C494B2C00330CF4 /* FullNavigationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullNavigationTransition.h; sourceTree = "<group>"; };
 		28F828821C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F828871C494B2C00330CF4 /* FullNavigationTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullNavigationTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
-		28F828991C494B4200330CF4 /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Example/Playground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +88,8 @@
 		28F828971C494B4200330CF4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28F828991C494B4200330CF4 /* iOS.swift */,
+				15E2252D1E3D9C0C00E86014 /* FullNavigationTransition.swift */,
+				159D12AC1E3DACD100DBD5F6 /* FullNavigationPercentDrivenInteractiveTransition.swift */,
 				28F828801C494B2C00330CF4 /* FullNavigationTransition.h */,
 				28F828821C494B2C00330CF4 /* Info.plist */,
 			);
@@ -201,7 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F8289A1C494B4200330CF4 /* iOS.swift in Sources */,
+				159D12AD1E3DACD100DBD5F6 /* FullNavigationPercentDrivenInteractiveTransition.swift in Sources */,
+				15E2252E1E3D9C0C00E86014 /* FullNavigationTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				287D0A6E1C4B73BD004566D6 /* FullNavigationTransitionTests.swift in Sources */,
+				15E2252F1E3D9C0C00E86014 /* FullNavigationTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
