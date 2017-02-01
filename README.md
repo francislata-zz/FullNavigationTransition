@@ -9,13 +9,13 @@
 <a href="https://raw.githubusercontent.com/francislata/FullNavigationTransition/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
-By [Francis Lata](http://francislata.com).
+By Francis Lata.
 
 ## Introduction
 
-FullNavigationTransition is a library to .......
+FullNavigationTransition has been created to provide a custom transition that allows for full view panning when a view controller is pushed. Furthermore, it alleviates most developers experience when maintaining different navigation bar styles without doing custom ```UINavigationBar``` hacks. This custom transition aims to mimic the standard iOS push and pop navigation controller animation without the fade animation.
 
-<!-- <img src="Example/FullNavigationTransition.gif" width="300"/> -->
+Please refer to the Example project provided for more details.
 
 ## Usage
 
@@ -27,8 +27,7 @@ import FullNavigationTransition
 
 ## Requirements
 
-* iOS 9.0+
-* Xcode 8.0+
+* iOS 8.0+
 
 ## Getting involved
 
@@ -37,14 +36,6 @@ import FullNavigationTransition
 * If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) and threads on [StackOverflow](http://stackoverflow.com/questions/tagged/FullNavigationTransition) (Tag 'FullNavigationTransition') before submitting an issue.**.
 
 Before contribute check the [CONTRIBUTING](https://github.com/francislata/FullNavigationTransition/blob/master/CONTRIBUTING.md) file for more info.
-
-If you use **FullNavigationTransition** in your app We would love to hear about it! Drop us a line on [twitter](https://twitter.com/francislata).
-
-## Examples
-
-Follow these 3 steps to run Example project: Clone FullNavigationTransition repository, open FullNavigationTransition workspace and run the *Example* project.
-
-You can also experiment and learn with the *FullNavigationTransition Playground* which is contained in *FullNavigationTransition.workspace*.
 
 ## Installation
 
@@ -55,17 +46,7 @@ You can also experiment and learn with the *FullNavigationTransition Playground*
 To install FullNavigationTransition, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FullNavigationTransition', '~> 1.0'
-```
-
-#### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
-
-To install FullNavigationTransition, simply add the following line to your Cartfile:
-
-```ogdl
-github "francislata/FullNavigationTransition" ~> 1.0
+pod 'FullNavigationTransition'
 ```
 
 ## Author
