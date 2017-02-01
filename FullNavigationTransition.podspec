@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { git: "https://github.com/francislata/FullNavigationTransition.git", tag: s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.ios.source_files = 'FullNavigationTransition/Sources/*.{swift}'
+  s.ios.source_files = 'Sources/*.{swift}'
   # s.resource_bundles = {
   #   'FullNavigationTransition' => ['FullNavigationTransition/Sources/**/*.xib']
   # }
